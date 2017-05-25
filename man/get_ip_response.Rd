@@ -6,6 +6,11 @@
 \usage{
 get_ip_response(url = ipify.env$API_URL, ...)
 }
+\arguments{
+\item{url}{The base url of the ipify service.}
+
+\item{...}{parameter = Format. What you  want the service to return. Valid options = c("text", "json", "jsonp")}
+}
 \description{
 This is a private, non-exported function
 }

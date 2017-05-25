@@ -30,7 +30,3 @@ ipify.env$API_URL <- "https://api.ipify.org"
 ipify.env$MAX_TRIES <- 3
 
 ipify.env$USER_AGENT <- sprintf("r-ipify/%s rlang/%s %s", version$nickname, version$minor, get_os())
-
-
-
-get_os()

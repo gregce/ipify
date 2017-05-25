@@ -3,8 +3,9 @@
 #' This is a private, non-exported function
 #'
 #' @name get_ip_response
+#' @param url The base url of the ipify service.
+#' @param ... parameter = Format. What you  want the service to return. Valid options = c("text", "json", "jsonp")
 #' @importFrom methods hasArg
-
 
 get_ip_response <- function(url = ipify.env$API_URL, ...) {
   args <- list(...)
@@ -24,7 +25,7 @@ get_ip_response <- function(url = ipify.env$API_URL, ...) {
 #'
 #' @name get_ip
 #' @param max_tries The number of times to retry the ipify service on failure. Defaults to 3.
-#' @param format Whether you want the service to return. Valid options = c("text", "json", "jsonp")
+#' @param ... parameter = Format. What you  want the service to return. Valid options = c("text", "json", "jsonp")
 #' @export
 #' @return The public IP address of this machine as a plain text string,
 

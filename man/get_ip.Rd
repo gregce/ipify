@@ -9,7 +9,7 @@ get_ip(max_tries = ipify.env$MAX_TRIES, ...)
 \arguments{
 \item{max_tries}{The number of times to retry the ipify service on failure. Defaults to 3.}
 
-\item{format}{Whether you want the service to return. Valid options = c("text", "json", "jsonp")}
+\item{...}{parameter = Format. What you  want the service to return. Valid options = c("text", "json", "jsonp")}
 }
 \value{
 The public IP address of this machine as a plain text string,
