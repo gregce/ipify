@@ -38,6 +38,6 @@ get_ip <- function(max_tries = ipify.env$MAX_TRIES, ...) {
     )
   }
   if (resp$status_code!=200) stop(paste0("Received an invalid status code from ipify: ", resp$status_code))
-  return(httr::content(resp))
+  if (grepl("jsonp", resp$request$url))  return(httr::content(resp, type = "text")) else return(httr::content(resp))
 }
 
