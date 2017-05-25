@@ -6,10 +6,6 @@ ipify [![Travis-CI Build Status](https://travis-ci.org/gregce/ipify.svg?branch=m
 Using the [`ipify` API](https://www.ipify.org) by
 [Rdegges](https://github.com/rdegges)
 
-**Author:** [Greg
-Ceccarelli](https://www.linkedin.com/in/gregceccarelli) **License:**
-[MIT](https://opensource.org/licenses/MIT)
-
 Installation and Documentation
 ------------------------------
 
@@ -38,3 +34,9 @@ Usage
 
     ##  [1] 63 61 6c 6c 62 61 63 6b 28 7b 22 69 70 22 3a 22 34 2e 31 36 2e 34 37
     ## [24] 2e 32 32 36 22 7d 29 3b
+
+License
+-------
+
+[MIT](https://opensource.org/licenses/MIT) @ [Greg
+Ceccarelli](https://www.linkedin.com/in/gregceccarelli)

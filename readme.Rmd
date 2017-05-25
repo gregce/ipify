@@ -9,10 +9,6 @@ ipify [![Travis-CI Build Status](https://travis-ci.org/gregce/ipify.svg?branch=m
 
 Using the [`ipify` API](https://www.ipify.org) by [Rdegges](https://github.com/rdegges)
 
-
-**Author:** [Greg Ceccarelli](https://www.linkedin.com/in/gregceccarelli)
-**License:** [MIT](https://opensource.org/licenses/MIT)
-
 Installation and Documentation
 ------------
 
@@ -32,4 +28,14 @@ get_ip()
 get_ip(format="json")
 get_ip(format="jsonp")
 ```
+
+
+License
+-------------
+
+[MIT](https://opensource.org/licenses/MIT) @ [Greg Ceccarelli](https://www.linkedin.com/in/gregceccarelli)
+
+
+
+
 
