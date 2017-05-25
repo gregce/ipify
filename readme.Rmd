@@ -1,9 +1,30 @@
 ---
-  title: "autoCaret: make machine learning easier!"
+title: "ipify"
 output: md_document
 ---
 
-  **Authors:** [Greg Ceccarelli](https://www.linkedin.com/in/gregceccarelli), [Michael Marks](https://www.linkedin.com/in/michael-marks-58948636), [Rock Baek](https://www.linkedin.com/in/rock-baek-61588623)
-<br/>
+> Get your public IP
+
+  **Author:** [Greg Ceccarelli](https://www.linkedin.com/in/gregceccarelli)
   **License:** [MIT](https://opensource.org/licenses/MIT)
-[![Travis-CI Build Status](https://travis-ci.org/gregce/autoCaret.svg?branch=master)](https://travis-ci.org/gregce/autoCaret)
+
+Installation and Documentation
+------------
+
+You can install the R `ipify` package using [devtools](https://github.com/hadley/devtools):
+
+```
+library(devtools)
+install_github("gregce/ipify")
+```
+
+Usage
+------------
+
+```{r}
+library(ipify)
+get_ip()
+get_ip(format="json")
+get_ip(format="jsonp")
+```
+
