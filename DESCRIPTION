@@ -1,8 +1,7 @@
 Package: ipify
 Title: Query the ipify service
 Version: 0.1.0
-Author: person("Greg", "Ceccarelli", email = "gregce@gmail.com",
-    role = c("aut", "cre"))
+Authors@R: person("Greg", "Ceccarelli", email = "gregce@gmail.com", role = c("aut", "cre"))
 Description: Query the ipify service (https://www.ipify.org) to retrieve this machine's public IP address.
 Depends:
     R (>= 3.2.4)

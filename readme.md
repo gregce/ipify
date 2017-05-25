@@ -1,4 +1,10 @@
+ipify [![Travis-CI Build Status](https://travis-ci.org/gregce/ipify.svg?branch=master)](https://travis-ci.org/gregce/ipify)
+---------------------------------------------------------------------------------------------------------------------------
+
 > Get your public IP
+
+Using the [`ipify` API](https://www.ipify.org) by
+[Rdegges](https://github.com/rdegges)
 
 **Author:** [Greg
 Ceccarelli](https://www.linkedin.com/in/gregceccarelli) **License:**
