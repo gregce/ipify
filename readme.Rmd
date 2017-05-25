@@ -1,0 +1,9 @@
+---
+  title: "autoCaret: make machine learning easier!"
+output: md_document
+---
+
+  **Authors:** [Greg Ceccarelli](https://www.linkedin.com/in/gregceccarelli), [Michael Marks](https://www.linkedin.com/in/michael-marks-58948636), [Rock Baek](https://www.linkedin.com/in/rock-baek-61588623)
+<br/>
+  **License:** [MIT](https://opensource.org/licenses/MIT)
+[![Travis-CI Build Status](https://travis-ci.org/gregce/autoCaret.svg?branch=master)](https://travis-ci.org/gregce/autoCaret)
