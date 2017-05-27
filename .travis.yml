@@ -4,5 +4,5 @@ language: R
 warnings_are_errors: false
 sudo: required
 cache: packages
-r_github_packages: gregce/ipify
-
+r_github_packages: gregce/ipify, jimhester/covr
+after_success:  Rscript -e 'covr::coveralls()'
