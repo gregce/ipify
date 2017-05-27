@@ -2,7 +2,7 @@
 
 language: R
 warnings_are_errors: false
-sudo: required
+sudo: false
 cache: packages
 Remotes: gregce/ipify, 
    jimhester/covr
