@@ -12,4 +12,3 @@ ipify.env
 Set up the environment used to store setting information
 }
 \keyword{datasets}
-

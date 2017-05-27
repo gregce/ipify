@@ -9,4 +9,3 @@ get_os()
 \description{
 This is a private, non-exported function
 }
-

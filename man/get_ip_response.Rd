@@ -14,4 +14,3 @@ get_ip_response(url = ipify.env$API_URL, ...)
 \description{
 This is a private, non-exported function
 }
-

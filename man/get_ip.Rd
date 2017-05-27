@@ -18,4 +18,3 @@ The public IP address of this machine as a plain text string,
 Query the ipify service (https://www.ipify.org) to retrieve this machine's
 public IP address.
 }
-
