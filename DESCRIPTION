@@ -1,16 +1,17 @@
 Package: ipify
-Title: Query the ipify service
+Title: Query the Ipify Service
 Version: 0.2.0
 Authors@R: person("Greg", "Ceccarelli", email = "gregce@gmail.com", role = c("aut", "cre"))
 Description: Query the ipify service (https://www.ipify.org) to retrieve this machine's public IP address.
 Depends:
-    R (>= 3.2.4)
+    R (>= 3.4)
 Imports:
     methods,
-    httr,
-    covr
+    httr
 License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-Suggests: testthat
+Suggests: 
+  testthat,
+  covr
