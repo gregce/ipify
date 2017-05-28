@@ -1,6 +1,5 @@
 ---
-title: "ipify"
-output: md_document
+output: github_document
 ---
 ipify  [![Travis-CI Build Status](https://travis-ci.org/gregce/ipify.svg?branch=master)](https://travis-ci.org/gregce/ipify)  [![Coverage Status](https://coveralls.io/repos/github/gregce/ipify/badge.svg?branch=master)](https://coveralls.io/github/gregce/ipify?branch=master)
 -------------
@@ -22,7 +21,9 @@ install_github("gregce/ipify")
 Usage
 ------------
 
-```{r}
+You can see the package in action at http://gregce.github.io/ipify/
+
+```{r, results='hold', message=FALSE}
 library(ipify)
 get_ip()
 get_ip(format="json")
