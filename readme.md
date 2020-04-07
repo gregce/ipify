@@ -9,10 +9,20 @@ Using the [`ipify` API](https://www.ipify.org) by [Rdegges](https://github.com/r
 Installation and Documentation
 ------------------------------
 
-You can install the R `ipify` package using [devtools](https://github.com/hadley/devtools):
+`ipify` is available through both CRAN and GitHub:
 
-    library(devtools)
-    install_github("gregce/ipify")
+To install the CRAN version:
+
+``` r
+install.packages("ipify")
+```
+
+To install the latest development version from GitHub:
+
+``` r
+install.packages("devtools")
+devtools::install_github("gregce/ipify")
+```
 
 Usage
 -----
